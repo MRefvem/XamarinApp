@@ -1,8 +1,6 @@
 # XamarinApp
 ASP.NET Xamarin App
 
-## About Me
-
 *Authors: Michael Refvem, Lami Beach & Na'ama Bar-Ilan*
 
 ----
