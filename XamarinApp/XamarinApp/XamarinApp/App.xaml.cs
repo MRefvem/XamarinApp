@@ -10,7 +10,7 @@ namespace XamarinApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ListViewPage1();
         }
 
         protected override void OnStart()

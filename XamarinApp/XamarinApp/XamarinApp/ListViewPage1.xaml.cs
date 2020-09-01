@@ -20,25 +20,24 @@ namespace XamarinApp
 
             Items = new ObservableCollection<string>
             {
-                "Item 1",
-                "Item 2",
-                "Item 3",
-                "Item 4",
-                "Item 5"
+                "Michael",
+                "Na'ama",
+                "Lami"
             };
 
             MyListView.ItemsSource = Items;
         }
 
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
+        void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item == null)
                 return;
 
-            await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
-
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
+
+            //Go to new page
+            Application.Current.MainPage = new BioPage(e.Item.ToString());
         }
     }
 }

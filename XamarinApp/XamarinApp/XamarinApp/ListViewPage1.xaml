@@ -5,20 +5,18 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="XamarinApp.ListViewPage1">
-  <ListView x:Name="MyListView"
+    <ListView x:Name="MyListView"
             ItemsSource="{Binding Items}"
             ItemTapped="Handle_ItemTapped"
             CachingStrategy="RecycleElement">
-    <d:ListView.ItemsSource>
-        <x:Array Type="{x:Type x:String}">
-            <x:String>Item 1</x:String>
-            <x:String>Item 2</x:String>
-            <x:String>Item 3</x:String>
-            <x:String>Item 4</x:String>
-            <x:String>Item 5</x:String>
-        </x:Array>
-    </d:ListView.ItemsSource>
-    <!--Built in Cells-->
+        <d:ListView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Michael</x:String>
+                <x:String>Na'ama</x:String>
+                <x:String>Lami</x:String>
+            </x:Array>
+        </d:ListView.ItemsSource>
+        <!--Built in Cells-->
     <ListView.ItemTemplate>
         <DataTemplate>
             <TextCell Text="{Binding .}" d:Text="{Binding .}" />

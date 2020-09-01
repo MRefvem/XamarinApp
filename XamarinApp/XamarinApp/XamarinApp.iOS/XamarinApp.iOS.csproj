@@ -133,4 +133,13 @@
       <Name>XamarinApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\naama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\michael.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lami.jpg" />
+  </ItemGroup>
 </Project>
