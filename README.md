@@ -34,11 +34,11 @@ Then select and open ```XamarinApp.sln```
 ### Visuals
 
 #### Application Start
-![Image 1]()
-#### Using the Application
-![Image 2]()
-#### Application End
-![Image 2]()
+![Image 1](https://github.com/MRefvem/XamarinApp/blob/master/Assets/XamarinApp-Start.png)
+#### Using the Application : Michael's About Me
+![Image 2](https://github.com/MRefvem/XamarinApp/blob/master/Assets/XamarinApp-AboutMe1.png)
+#### Using the Application : Lami's About Me
+![Image 3](https://github.com/MRefvem/XamarinApp/blob/master/Assets/XamarinApp-AboutMe2.png)
 
 ---
 
