@@ -10,6 +10,7 @@
             ItemTapped="Handle_ItemTapped"
             CachingStrategy="RecycleElement">
         <d:ListView.ItemsSource>
+            
             <x:Array Type="{x:Type x:String}">
                 <x:String>Michael</x:String>
                 <x:String>Na'ama</x:String>
